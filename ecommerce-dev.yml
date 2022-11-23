@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: secret
+  secret: secret_dev
 
 gateway:
   ip: 192.168.0.66
