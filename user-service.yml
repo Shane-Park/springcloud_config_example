@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}AQAgA9rLxxFMbug7VWhJXKKjWjn6UApIFjZJE7osuv5Nj/VSJYpag9UkK2u93J+tqPem0vPWuWOxjfp0TCVCMc5iW7VBQtkd+H98+sW1B9CG/mJs9jiUeCCBCnCZeqYCA6zhrHMtd8EQB7A259xZSZJX8nWowkuhYRMj0q2HydEOqUDAdVef7tIIIvPIWf81Hb4C8SBho7qjp6erUtp3JtVF2N99/RpwcIXlbCdwPgFhPypEljaE8tY5b78xzBoCsrezReBlxFWNTADhRikruVVrrqmZHUrZkBwjLhwHrHWaKKF6g7oW69bffkguU/ivOFMOS32Q1AscUHIuvTu1480T3zJMWSx7Crwt/8+iD/iIg5ltLjAgdbTiOzZ9hKMH78E='
+token:
+  expiration_time: 86400000
+  secret: secret
+
+gateway:
+  ip: 192.168.0.66
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
