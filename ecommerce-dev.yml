@@ -3,4 +3,4 @@ token:
   secret: secret_native_dev
 
 gateway:
-  ip: 192.168.0.66
+  ip: 172.18.0.2

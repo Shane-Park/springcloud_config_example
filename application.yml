@@ -3,4 +3,4 @@ token:
   secret: native_application_secret_update#2
 
 gateway:
-  ip: 192.168.0.66
+  ip: 172.18.0.2
